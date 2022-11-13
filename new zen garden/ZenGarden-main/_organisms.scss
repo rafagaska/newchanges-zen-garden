@@ -1,0 +1,100 @@
+@use 'variables' as *;
+@use 'atoms';
+@use 'molecules';
+
+.page-wrapper { 
+
+	
+	margin: 0; 
+	position: relative;
+	}
+
+.intro { 
+		width: auto;
+        background-color: rgb(170, 255, 0);
+	}
+
+header h1 { 
+	
+  display: block;
+	width: 200px;
+
+
+		}
+
+header {
+	padding-top: 20px;
+    background-color: rgb(255, 0, 204);
+	
+  
+}
+
+.summary {
+  width: 80%;
+	margin: 1 auto;
+    background-color: rgb(255, 217, 0);
+}
+
+
+.preamble {
+  width: 1000px;
+  height: 500px;
+	margin: 1 auto; 
+   background-image: url(images/michelle-mcewen.jpg);
+  background-size: 992px;
+  background-repeat: no-repeat;
+}
+
+.main {	
+  width: 992px;
+  background-color:  rgb(45, 107, 87);
+ 
+  
+}
+
+footer { 
+  text-align: center; 
+	display: flex;
+  justify-content: center;
+  background-image: url(images/path.jpg);
+  background-size: 800px;
+  margin-bottom: 50px;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: transparent;
+    padding: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+footer a {
+
+}
+
+footer a.zen-validate-html {
+  background-image: url(images/html-5.png);
+    
+}
+
+footer a.zen-validate-css {
+  background-image: url(images/css-3.png);
+    
+}
+
+footer a.zen-license {
+  background-image: url(images/cc.png);
+    
+}
+
+footer a.zen-accessibility {
+  background-image: url(images/info.png);
+    
+}
+
+footer a.zen-github {
+  background-image: url(images/github.png);
+}
